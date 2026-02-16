@@ -1,0 +1,23 @@
+
+{
+    "version": "2.60",
+    "description": "A translations for KeePass 2.x",
+    "homepage": "https://keepass.info/translations.html",
+    "license": "Unknown",
+    "depends": "extras/keepass",
+    "url": "https://sourceforge.net/projects/keepass/files/Translations%202.x/2.60/KeePass-2.60-Hungarian.zip",
+    "hash": "sha1:34ad95dc5a03e52e65a41ca3f6e5dc9082a101e4",
+    "installer": {
+        "script": "Copy-Item \"$dir\\Hungarian.lngx\" \"$(appdir keepass $global)\\current\\Languages\" -Recurse"
+    },
+    "uninstaller": {
+        "script": "Remove-Item \"$(appdir keepass $global)\\current\\Languages\\Hungarian.lngx\" -Recurse"
+    },
+    "checkver": {
+        "url": "https://sourceforge.net/projects/keepass/rss",
+        "regex": "/Translations 2\\.x/([\\d.]+)/KeePass-[\\d.]+-Hungarian\\.zip"
+    },
+    "autoupdate": {
+        "url": "https://sourceforge.net/projects/keepass/files/Translations%202.x/$version/KeePass-$version-Hungarian.zip"
+    }
+}
