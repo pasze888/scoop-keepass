@@ -7,10 +7,10 @@
     "url": "https://sourceforge.net/projects/keepass/files/Translations%202.x/2.60/KeePass-2.60-German.zip",
     "hash": "0E8176C688CB347C36A6063E95552097FB9688CB736FFF261BABADDD7B039FD5",
     "installer": {
-        "script": "Copy-Item \"$dir\\German.ingx\" \"$(appdir keepass $global)\\current\\Languages\" -Recurse"
+        "script": "Copy-Item \"$dir\\German.lngx\" \"$(appdir keepass $global)\\current\\Languages\" -Recurse"
     },
     "uninstaller": {
-        "script": "Remove-Item \"$(appdir keepass $global)\\current\\Languages\\German.ingx\" -Recurse"
+        "script": "Remove-Item \"$(appdir keepass $global)\\current\\Languages\\German.lngx\" -Recurse"
     },
     "checkver": {
         "url": "https://sourceforge.net/projects/keepass/rss",
