@@ -1,0 +1,23 @@
+
+{
+    "version": "2.60",
+    "description": "A translations for KeePass 2.x",
+    "homepage": "https://keepass.info/translations.html",
+    "license": "Unknown",
+    "depends": "extras/keepass",
+    "url": "https://sourceforge.net/projects/keepass/files/Translations%202.x/2.60/KeePass-2.60-Chinese_Traditional.zip",
+    "hash": "sha1:22366f017f81fcc89dbd4e6d459c02429329c9ba",
+    "installer": {
+        "script": "Copy-Item \"$dir\\Chinese_Traditional.lngx\" \"$(appdir keepass $global)\\current\\Languages\" -Recurse"
+    },
+    "uninstaller": {
+        "script": "Remove-Item \"$(appdir keepass $global)\\current\\Languages\\Chinese_Traditional.lngx\" -Recurse"
+    },
+    "checkver": {
+        "url": "https://sourceforge.net/projects/keepass/rss",
+        "regex": "/Translations 2\\.x/([\\d.]+)/KeePass-[\\d.]+-Chinese_Traditional\\.zip"
+    },
+    "autoupdate": {
+        "url": "https://sourceforge.net/projects/keepass/files/Translations%202.x/$version/KeePass-$version-Chinese_Traditional.zip"
+    }
+}
