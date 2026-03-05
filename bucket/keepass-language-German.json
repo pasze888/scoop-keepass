@@ -1,12 +1,11 @@
-
 {
-    "version": "2.60",
+    "version": "2.61",
     "description": "A translations for KeePass 2.x",
     "homepage": "https://keepass.info/translations.html",
     "license": "Unknown",
     "depends": "extras/keepass",
-    "url": "https://sourceforge.net/projects/keepass/files/Translations%202.x/2.60/KeePass-2.60-German.zip",
-    "hash": "sha1:b7606fb7ef3366bc0748c25c98c4e3f60ef41780",
+    "url": "https://sourceforge.net/projects/keepass/files/Translations%202.x/2.61/KeePass-2.61-German.zip",
+    "hash": "sha1:8a1f23e06b40c5dc79f998a61c7b6dace8bb3003",
     "installer": {
         "script": "Copy-Item \"$dir\\German.lngx\" \"$(appdir keepass $global)\\current\\Languages\" -Recurse"
     },
