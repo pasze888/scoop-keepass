@@ -1,12 +1,11 @@
-
 {
-    "version": "2.60",
+    "version": "2.61",
     "description": "A translations for KeePass 2.x",
     "homepage": "https://keepass.info/translations.html",
     "license": "Unknown",
     "depends": "extras/keepass",
-    "url": "https://sourceforge.net/projects/keepass/files/Translations%202.x/2.60/KeePass-2.60-Slovak.zip",
-    "hash": "sha1:ea3b2b70de2ae3672c5e6e157320a284294451fc",
+    "url": "https://sourceforge.net/projects/keepass/files/Translations%202.x/2.61/KeePass-2.61-Slovak.zip",
+    "hash": "sha1:f5e09b344e835871617cf07f1187cd9570c431ca",
     "installer": {
         "script": "Copy-Item \"$dir\\Slovak.lngx\" \"$(appdir keepass $global)\\current\\Languages\" -Recurse"
     },
