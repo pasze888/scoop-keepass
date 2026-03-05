@@ -1,12 +1,11 @@
-
 {
-    "version": "2.60",
+    "version": "2.61",
     "description": "A translations for KeePass 2.x",
     "homepage": "https://keepass.info/translations.html",
     "license": "Unknown",
     "depends": "extras/keepass",
-    "url": "https://sourceforge.net/projects/keepass/files/Translations%202.x/2.60/KeePass-2.60-Serbian_Cyrillic.zip",
-    "hash": "sha1:c0d34a0f31279ae23e53777e8704800a22efae08",
+    "url": "https://sourceforge.net/projects/keepass/files/Translations%202.x/2.61/KeePass-2.61-Serbian_Cyrillic.zip",
+    "hash": "sha1:654a937777ffe44bef220eb1eec7b69efc7d9f50",
     "installer": {
         "script": "Copy-Item \"$dir\\Serbian_Cyrillic.lngx\" \"$(appdir keepass $global)\\current\\Languages\" -Recurse"
     },
