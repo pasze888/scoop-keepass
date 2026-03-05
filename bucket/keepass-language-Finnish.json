@@ -1,12 +1,11 @@
-
 {
-    "version": "2.60",
+    "version": "2.61",
     "description": "A translations for KeePass 2.x",
     "homepage": "https://keepass.info/translations.html",
     "license": "Unknown",
     "depends": "extras/keepass",
-    "url": "https://sourceforge.net/projects/keepass/files/Translations%202.x/2.60/KeePass-2.60-Finnish.zip",
-    "hash": "sha1:028bb163b0177589f05dc0081ae3bbaaa64c907e",
+    "url": "https://sourceforge.net/projects/keepass/files/Translations%202.x/2.61/KeePass-2.61-Finnish.zip",
+    "hash": "sha1:ee524ad3a2127e7202dd9ca060fa3706f662305f",
     "installer": {
         "script": "Copy-Item \"$dir\\Finnish.lngx\" \"$(appdir keepass $global)\\current\\Languages\" -Recurse"
     },
