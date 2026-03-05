@@ -1,12 +1,11 @@
-
 {
-    "version": "2.60",
+    "version": "2.61",
     "description": "A translations for KeePass 2.x",
     "homepage": "https://keepass.info/translations.html",
     "license": "Unknown",
     "depends": "extras/keepass",
-    "url": "https://sourceforge.net/projects/keepass/files/Translations%202.x/2.60/KeePass-2.60-Basque.zip",
-    "hash": "sha1:0e9af16048a7e4c9bfccddf683f15ba993ba607e",
+    "url": "https://sourceforge.net/projects/keepass/files/Translations%202.x/2.61/KeePass-2.61-Basque.zip",
+    "hash": "sha1:6cfc205cd90e203861e442c9f2c30215776f88f8",
     "installer": {
         "script": "Copy-Item \"$dir\\Basque.lngx\" \"$(appdir keepass $global)\\current\\Languages\" -Recurse"
     },
